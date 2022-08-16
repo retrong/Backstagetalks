@@ -1,3 +1,4 @@
+@import "//node_modules/bootstrap/scss/bootstrap.scss";
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -28,5 +29,18 @@ p {
 a,
 a:visited,
 a:active {
+  text-decoration: none;
+}
+
+.header img {
+  width: 16.25rem;
+  height: auto;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

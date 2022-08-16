@@ -1,0 +1,24 @@
+{
+  "name": "backstagetalks",
+  "version": "1.0.0",
+  "description": "Backstagetalk Magazine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retrong/Backstagetalks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/retrong/Backstagetalks/issues"
+  },
+  "homepage": "https://github.com/retrong/Backstagetalks#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1"
+  }
+}

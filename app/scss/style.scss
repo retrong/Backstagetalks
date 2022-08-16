@@ -1,1 +1,15 @@
 @forward 'globals';
+@import "//node_modules/bootstrap/scss/bootstrap.scss";
+
+.header img {
+width: 16.25rem;
+height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
