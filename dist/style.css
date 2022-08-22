@@ -40,7 +40,7 @@ ul {
 
 .header {
   padding-top: 1.25rem;
-  position: absolute;
+  position: fixed;
   left: 20px;
   top: 14px;
   z-index: 2;
