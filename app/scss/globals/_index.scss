@@ -14,6 +14,8 @@
     height: auto;
 }
 
+// middle
+
 .middle {
     padding-top: 35px;
     height: 100vh;
@@ -48,6 +50,12 @@
     text-decoration: underline;
 }
 
+// middle container
+
+.maincontainer {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 
 .footer {
@@ -71,72 +79,6 @@
     text-align: left;
 }
 
-// .cover img {
-//     width: 26.25rem;
-// }
-
-// .middle .cover {
-//     text-align: center;
-// }
-    
-// #slides-container {
-//     width: 100%;
-//     height: 100%;
-//     overflow: hidden;
-// }
-
-// #slides {
-//     width: 100%;
-//     height: 100%;
-//     top: 0;
-//     left: 0;
-// }
-
-// // .slide {
-// //     position:absolute;
-// //     top:0;
-// //     left: 0;
-// //     width: 50%;
-// //     height: 50%;
-// // }
-
-// #issue1,
-// #issue2,
-// #issue3,
-// #issue4,
-// #issue5,
-// #issue6 {
-//     background: no-repeat center center;
-// }
-
-
-// .footer {
-//     font-size: 1.125rem;
-//     position: fixed;
-//     width: 100%;
-//     height: 100%;
-//     top: 80%;
-//     left: 0;
-//     bottom: 0;
-//     right: 0;
-//     padding: 10px;
-// }
-
-// .footer .description {
-//     font-weight: 600;
-// }
-
-
-
-// .footer .contact(info){
-//     text-align: right;
-//     position: absolute;
-//     bottom: 0px;
-//     right: 15px;
-//     margin-top: 0;
-//     top: -78%;
-//     font-weight: 600;
-// }
 
 .copyright {
     font-size: 12px;
@@ -155,19 +97,6 @@
     font-size: 18px;
     line-height: 1.6;
 }
-
-
-// // @media (min-width: 992px) and (min-height: 650px) {
-// //     .footer {
-// //         position: static;
-// //     }
-// // }
-
-
-// p, a {
-//     text-align: center;
-//     margin-bottom: 0px;
-// }
 
 
 // individual ID
@@ -230,24 +159,3 @@
         color: #ffffff;
     }
 }
-
-.maincontainer {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-// middle slide
-
-// .middle .cover img {
-//     // width: 26.25rem;
-//     // align-items: center;
-//     // justify-content: center;
-// }
-
-// check this code above later
-
-// div .fullpage {
-//     height: 100%;
-//     position: relative;
-// }
-

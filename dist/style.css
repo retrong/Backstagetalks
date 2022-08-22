@@ -85,6 +85,11 @@ ul {
   text-decoration: underline;
 }
 
+.maincontainer {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .footer {
   padding-bottom: 1.25rem;
   position: fixed;
@@ -173,11 +178,6 @@ ul {
 }
 #issue1 a {
   color: #ffffff;
-}
-
-.maincontainer {
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 body {
