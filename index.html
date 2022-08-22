@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Backstage Talks Magazine</title>
 
-    <!-- css stylesheet -->
-    <link rel="stylesheet" href="/dist/style.css">
-
-
     <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css"/>
+
+    <!-- jquery css -->
+        <link rel="stylesheet" type="text/css" href="/vendors/fullpage/fullpage.min.css"/>
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="/dist/style.css"/>
 
 </head>
 <body>
@@ -20,25 +24,25 @@
         <img src="/app/images/logo.png" alt="logo">
     </div>
     <!-- header ends here -->
+    <div id="fullpage maincontainer" class="fullpage-wrapper">
 
-    <!-- main section -->
-    <div id="fullpage">
-
-        <div id="slides-container">
-            <div id="slides">
-                <div id="slide-1" class="slide">
+        <div id="issue6" class="section">
+            <div class="middle">
+                <div class="cover">
                     <img src="/app/images/backstagetalks_cover_issue_6.png" alt="issue6">
                     <p>Issue #6</p>
                     <p class="click">
                         <a href="#">BUY HERE</a>
                     </p>
                     <p class="click">
-                        "Or in"
-                        <a href="#">selected stores</a>
-                        "."
+                        Or in <a href="#">selected stores</a>.
                     </p>
                 </div>
-                <div id="slide-2" class="slide">
+            </div>
+        </div>
+        <div id="issue5" class="section">
+            <div class="middle">
+                <div class="cover">
                     <img src="/app/images/backstagetalks_cover_issue_5.png" alt="issue5">
                     <p>Issue #5</p>
                     <p class="click">
@@ -50,7 +54,11 @@
                         "."
                     </p>
                 </div>
-                <div id="slide-3" class="slide">
+            </div>
+        </div>
+        <div id="issue4" class="section">
+            <div class="middle">
+                <div class="cover">
                     <img src="/app/images/backstagetalks_cover_issue_4.png" alt="issue4">
                     <p>Issue #4</p>
                     <p class="click">
@@ -58,37 +66,17 @@
                     </p>
                     <p class="click">
                         "Or in"
-                        <a href="#">selected stores</a>
+                        <a href="#">select stores</a>
                         "."
                     </p>
                 </div>
-                <div id="slide-4" class="slide">
-                    <img src="/app/images/backstagetalks_cover_issue_3.png" alt="issue6">
+            </div>
+        </div>
+        <div id="issue3" class="section">
+            <div class="middle">
+                <div class="cover">
+                    <img src="/app/images/backstagetalks_cover_issue_3.png" alt="issue3">
                     <p>Issue #3</p>
-                    <p class="click">
-                        <a href="#">BUY HERE</a>
-                    </p>
-                    <p class="click">
-                        "Or in"
-                        <a href="#">selected stores</a>
-                        "."
-                    </p>
-                </div>
-                <div id="slide-5" class="slide">
-                    <img src="/app/images/backstagetalks_cover2017.png" alt="issue6">
-                    <p>Issue #2</p>
-                    <p class="click">
-                        <a href="#">BUY HERE</a>
-                    </p>
-                    <p class="click">
-                        "Or in"
-                        <a href="#">selected stores</a>
-                        "."
-                    </p>
-                </div>
-                <div id="slide-6" class="slide">
-                    <img src="/app/images/backstagetalks_cover2016_n.png" alt="issue6">
-                    <p>Issue #1</p>
                     <p class="click">
                         <a href="#">BUY HERE</a>
                     </p>
@@ -100,12 +88,78 @@
                 </div>
             </div>
         </div>
-        
+        <div id="issue2" class="section">
+            <div class="middle">
+                <div class="cover">
+                    <img src="/app/images/backstagetalks_cover2017.png" alt="issue2">
+                    <p>Issue #2</p>
+                    <p class="click">
+                        <a href="#">BUY HERE</a>
+                    </p>
+                    <p class="click">
+                        "Or in"
+                        <a href="#">selected stores</a>
+                        "."
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="issue1" class="section">
+            <div class="middle">
+                <div class="cover">
+                    <img src="/app/images/backstagetalks_cover2016_n.png" alt="issue1">
+                    <p>Issue #1 is sold out.</p>
+                    <p class="click">
+                        if you are lucky, you may getthe last pieces in
+                        <a href="#">selected stores</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+    <div class="footer container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <p class="description">
+                    Backstage Talks is a&nbsp; magazine of&nbsp; casual, but in&nbsp; depth dialogues on&nbsp; design and business. Our decisions shape and influence this complexworld—to have a&nbsp; chance to&nbsp; make the right ones, we need to talk.
+                    <br>
+                    <span class="copyright">
+                        &copy; 2022
+                    <a href="#" target="_blank">Published by studio RetroTech</a>
+                    </span>
+                    <br><br><a href="#">Privacy Policy</a>
+                </p>
+            </div>
+    
+            <div class="col-md-8 ms-auto right" id="right-menu">
+                <ul class="menu">
+                    <li><a class="menulink" href="#issue6">Issue #6</a></li>
+                    <li><a class="menulink" href="#issue5">Issue #5</a></li>
+                    <li><a class="menulink" href="#issue4">Issue #4</a></li>
+                    <li><a class="menulink" href="#issue3">Issue #3</a></li>
+                    <li><a class="menulink" href="#issue2">Issue #2</a></li>
+                    <li><a class="menulink" href="#issue1">Issue #1</a></li>
+                </ul>
+
+                <p class="contact">
+                    <a class="link01" href="#">info@backstagetalks.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
     <!-- main section ends here -->
 
 
     <!-- javascript -->
+
+    <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <!-- <script type="text/javascript" src="/vendors/scroll-out/scroll-out.min.js"></script> -->
+    <script type="text/javascript" src="/vendors/fullpage/fullpage.min.js"></script>
     <script src="/app/js/script.js"></script>
 
     <!-- js bootstrap -->

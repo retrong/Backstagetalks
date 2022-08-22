@@ -9,7 +9,12 @@ p{
 }
 
 a,
+a:focus,
 a:visited,
 a:active {
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }

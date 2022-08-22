@@ -1,15 +1,60 @@
 @forward 'globals';
-@import "//node_modules/bootstrap/scss/bootstrap.scss";
 
-.header img {
-width: 16.25rem;
-height: auto;
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: background-color 500ms ease-out 200ms;
+    -moz-transition: background-color 500ms ease-out 200ms;
+    -o-transition: background-color 500ms ease-out 200ms;
+    transition: background-color 500ms ease-out 200ms;
 }
 
-img {
-    vertical-align: middle;
+div {
+    display: block;
 }
 
 a {
-    text-decoration: none;
+    color: black;
 }
+a:hover {
+    color: #251d20;
+}
+
+p {
+    color: #251d20;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.footer .description a {
+    text-decoration: underline;
+}
+
+// .wrapper {
+//     min-height: 100vh;
+//     position: relative;
+//   }
+
+// .section {
+//     height: 100vh;
+//     // font-size: 40px;
+//     // font-weight: 100;
+//     background-color: #22a7f0;
+
+//     // display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     $colors: #f64747, #22a7f0, #f9690e, #9b59b6, #03c9a9, #ffcc00;
+//     @for $i from 1 through length($colors) {
+//         &:nth-child(#{$i}) {
+//             background: nth($colors, $i);
+//         }
+//     }
+// }

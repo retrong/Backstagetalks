@@ -1,15 +1,23 @@
-html {
-    box-sizing: border-box;
-    font-size: 100%;
-}
-
 *,
  *::before,
  *::after {box-sizing: inherit;
 }
-
-body {
+* {
     margin: 0;
     padding: 0;
-    background-color: #00c1b5;
+    box-sizing: border-box;
+}
+
+
+// html {
+//     height: 100%;
+// }
+
+
+body {
+    background-color: black;
+    overflow: hidden;
+    height: 100%;
+    overflow-y: scroll;
+    // min-height: 100vh;
 }
