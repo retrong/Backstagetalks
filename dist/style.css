@@ -210,9 +210,12 @@ ul {
   .new_footer {
     display: block;
     position: relative;
-    flex-direction: column;
     top: 0;
     margin: 20px 0;
+  }
+  .footer_row {
+    display: flex;
+    flex-direction: column;
   }
   .footer_right {
     margin-top: 0;
