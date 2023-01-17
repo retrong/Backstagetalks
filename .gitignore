@@ -62,3 +62,5 @@ web_modules/
 
 # SvelteKit build / generate output
 .svelte-kit
+
+.vscode
